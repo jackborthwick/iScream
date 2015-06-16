@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		1FADFB091B25148D001CA00E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB081B25148D001CA00E /* main.m */; };
 		1FADFB0C1B25148D001CA00E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB0B1B25148D001CA00E /* AppDelegate.m */; };
-		1FADFB0F1B25148D001CA00E /* iScream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB0D1B25148D001CA00E /* iScream.xcdatamodeld */; };
 		1FADFB121B25148D001CA00E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB111B25148D001CA00E /* ViewController.m */; };
 		1FADFB151B25148D001CA00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB131B25148D001CA00E /* Main.storyboard */; };
 		1FADFB171B25148D001CA00E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB161B25148D001CA00E /* Images.xcassets */; };
 		1FADFB1A1B25148D001CA00E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FADFB181B25148D001CA00E /* LaunchScreen.xib */; };
 		1FADFB261B25148D001CA00E /* iScreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FADFB251B25148D001CA00E /* iScreamTests.m */; };
+		6107400F1B2627E400D50FC2 /* ButterPecan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610740051B2627E400D50FC2 /* ButterPecan.jpg */; };
+		610740101B2627E400D50FC2 /* Chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610740061B2627E400D50FC2 /* Chocolate.jpg */; };
+		610740111B2627E400D50FC2 /* MacinacIslandFudge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610740071B2627E400D50FC2 /* MacinacIslandFudge.jpg */; };
+		610740121B2627E400D50FC2 /* Neopolitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610740081B2627E400D50FC2 /* Neopolitan.jpg */; };
+		610740131B2627E400D50FC2 /* PeanutButter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 610740091B2627E400D50FC2 /* PeanutButter.jpg */; };
+		610740141B2627E400D50FC2 /* PhishFood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6107400A1B2627E400D50FC2 /* PhishFood.jpg */; };
+		610740151B2627E400D50FC2 /* RockyRoad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6107400B1B2627E400D50FC2 /* RockyRoad.jpg */; };
+		610740161B2627E400D50FC2 /* Strawberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6107400C1B2627E400D50FC2 /* Strawberry.jpg */; };
+		610740171B2627E400D50FC2 /* Superman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6107400D1B2627E400D50FC2 /* Superman.jpg */; };
+		610740181B2627E400D50FC2 /* Vanilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6107400E1B2627E400D50FC2 /* Vanilla.jpg */; };
+		610740201B262E3800D50FC2 /* Flavors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107401A1B262E3800D50FC2 /* Flavors.m */; };
+		610740211B262E3800D50FC2 /* InventoryItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107401C1B262E3800D50FC2 /* InventoryItems.m */; };
+		610740221B262E3800D50FC2 /* iScream.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6107401D1B262E3800D50FC2 /* iScream.sqlite */; };
+		610740231B262E3800D50FC2 /* iScream.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 6107401E1B262E3800D50FC2 /* iScream.sqlite-shm */; };
+		610740241B262E3800D50FC2 /* iScream.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 6107401F1B262E3800D50FC2 /* iScream.sqlite-wal */; };
+		6107402B1B262F7900D50FC2 /* iScream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 610740291B262F7900D50FC2 /* iScream.xcdatamodeld */; };
+		6107402E1B2635BE00D50FC2 /* flavorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6107402D1B2635BE00D50FC2 /* flavorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +49,6 @@
 		1FADFB081B25148D001CA00E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FADFB0A1B25148D001CA00E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FADFB0B1B25148D001CA00E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FADFB0E1B25148D001CA00E /* iScream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iScream.xcdatamodel; sourceTree = "<group>"; };
 		1FADFB101B25148D001CA00E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FADFB111B25148D001CA00E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FADFB141B25148D001CA00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +57,26 @@
 		1FADFB1F1B25148D001CA00E /* iScreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iScreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FADFB241B25148D001CA00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FADFB251B25148D001CA00E /* iScreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iScreamTests.m; sourceTree = "<group>"; };
+		610740051B2627E400D50FC2 /* ButterPecan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ButterPecan.jpg; sourceTree = "<group>"; };
+		610740061B2627E400D50FC2 /* Chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chocolate.jpg; sourceTree = "<group>"; };
+		610740071B2627E400D50FC2 /* MacinacIslandFudge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MacinacIslandFudge.jpg; sourceTree = "<group>"; };
+		610740081B2627E400D50FC2 /* Neopolitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neopolitan.jpg; sourceTree = "<group>"; };
+		610740091B2627E400D50FC2 /* PeanutButter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PeanutButter.jpg; sourceTree = "<group>"; };
+		6107400A1B2627E400D50FC2 /* PhishFood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PhishFood.jpg; sourceTree = "<group>"; };
+		6107400B1B2627E400D50FC2 /* RockyRoad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RockyRoad.jpg; sourceTree = "<group>"; };
+		6107400C1B2627E400D50FC2 /* Strawberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Strawberry.jpg; sourceTree = "<group>"; };
+		6107400D1B2627E400D50FC2 /* Superman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Superman.jpg; sourceTree = "<group>"; };
+		6107400E1B2627E400D50FC2 /* Vanilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vanilla.jpg; sourceTree = "<group>"; };
+		610740191B262E3800D50FC2 /* Flavors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flavors.h; sourceTree = "<group>"; };
+		6107401A1B262E3800D50FC2 /* Flavors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flavors.m; sourceTree = "<group>"; };
+		6107401B1B262E3800D50FC2 /* InventoryItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryItems.h; sourceTree = "<group>"; };
+		6107401C1B262E3800D50FC2 /* InventoryItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryItems.m; sourceTree = "<group>"; };
+		6107401D1B262E3800D50FC2 /* iScream.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iScream.sqlite; sourceTree = "<group>"; };
+		6107401E1B262E3800D50FC2 /* iScream.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-shm"; sourceTree = "<group>"; };
+		6107401F1B262E3800D50FC2 /* iScream.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iScream.sqlite-wal"; sourceTree = "<group>"; };
+		6107402A1B262F7900D50FC2 /* Table_View_Intro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Table_View_Intro.xcdatamodel; sourceTree = "<group>"; };
+		6107402C1B2635BE00D50FC2 /* flavorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flavorViewController.h; sourceTree = "<group>"; };
+		6107402D1B2635BE00D50FC2 /* flavorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flavorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +123,12 @@
 				1FADFB101B25148D001CA00E /* ViewController.h */,
 				1FADFB111B25148D001CA00E /* ViewController.m */,
 				1FADFB131B25148D001CA00E /* Main.storyboard */,
+				6107402C1B2635BE00D50FC2 /* flavorViewController.h */,
+				6107402D1B2635BE00D50FC2 /* flavorViewController.m */,
+				610740041B2627E400D50FC2 /* Images */,
 				1FADFB161B25148D001CA00E /* Images.xcassets */,
 				1FADFB181B25148D001CA00E /* LaunchScreen.xib */,
-				1FADFB0D1B25148D001CA00E /* iScream.xcdatamodeld */,
+				610740251B262E4700D50FC2 /* Data */,
 				1FADFB061B25148D001CA00E /* Supporting Files */,
 			);
 			path = iScream;
@@ -120,6 +158,38 @@
 				1FADFB241B25148D001CA00E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		610740041B2627E400D50FC2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				610740051B2627E400D50FC2 /* ButterPecan.jpg */,
+				610740061B2627E400D50FC2 /* Chocolate.jpg */,
+				610740071B2627E400D50FC2 /* MacinacIslandFudge.jpg */,
+				610740081B2627E400D50FC2 /* Neopolitan.jpg */,
+				610740091B2627E400D50FC2 /* PeanutButter.jpg */,
+				6107400A1B2627E400D50FC2 /* PhishFood.jpg */,
+				6107400B1B2627E400D50FC2 /* RockyRoad.jpg */,
+				6107400C1B2627E400D50FC2 /* Strawberry.jpg */,
+				6107400D1B2627E400D50FC2 /* Superman.jpg */,
+				6107400E1B2627E400D50FC2 /* Vanilla.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		610740251B262E4700D50FC2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				610740291B262F7900D50FC2 /* iScream.xcdatamodeld */,
+				610740191B262E3800D50FC2 /* Flavors.h */,
+				6107401A1B262E3800D50FC2 /* Flavors.m */,
+				6107401B1B262E3800D50FC2 /* InventoryItems.h */,
+				6107401C1B262E3800D50FC2 /* InventoryItems.m */,
+				6107401D1B262E3800D50FC2 /* iScream.sqlite */,
+				6107401E1B262E3800D50FC2 /* iScream.sqlite-shm */,
+				6107401F1B262E3800D50FC2 /* iScream.sqlite-wal */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +272,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610740141B2627E400D50FC2 /* PhishFood.jpg in Resources */,
 				1FADFB151B25148D001CA00E /* Main.storyboard in Resources */,
+				610740111B2627E400D50FC2 /* MacinacIslandFudge.jpg in Resources */,
+				610740131B2627E400D50FC2 /* PeanutButter.jpg in Resources */,
+				610740221B262E3800D50FC2 /* iScream.sqlite in Resources */,
+				610740121B2627E400D50FC2 /* Neopolitan.jpg in Resources */,
+				610740181B2627E400D50FC2 /* Vanilla.jpg in Resources */,
+				610740241B262E3800D50FC2 /* iScream.sqlite-wal in Resources */,
 				1FADFB1A1B25148D001CA00E /* LaunchScreen.xib in Resources */,
+				610740151B2627E400D50FC2 /* RockyRoad.jpg in Resources */,
+				610740161B2627E400D50FC2 /* Strawberry.jpg in Resources */,
+				610740231B262E3800D50FC2 /* iScream.sqlite-shm in Resources */,
 				1FADFB171B25148D001CA00E /* Images.xcassets in Resources */,
+				6107400F1B2627E400D50FC2 /* ButterPecan.jpg in Resources */,
+				610740171B2627E400D50FC2 /* Superman.jpg in Resources */,
+				610740101B2627E400D50FC2 /* Chocolate.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FADFB0C1B25148D001CA00E /* AppDelegate.m in Sources */,
-				1FADFB0F1B25148D001CA00E /* iScream.xcdatamodeld in Sources */,
+				610740211B262E3800D50FC2 /* InventoryItems.m in Sources */,
+				6107402E1B2635BE00D50FC2 /* flavorViewController.m in Sources */,
 				1FADFB121B25148D001CA00E /* ViewController.m in Sources */,
+				610740201B262E3800D50FC2 /* Flavors.m in Sources */,
+				6107402B1B262F7900D50FC2 /* iScream.xcdatamodeld in Sources */,
 				1FADFB091B25148D001CA00E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +506,7 @@
 				1FADFB2B1B25148D001CA00E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FADFB2C1B25148D001CA00E /* Build configuration list for PBXNativeTarget "iScreamTests" */ = {
 			isa = XCConfigurationList;
@@ -428,16 +515,17 @@
 				1FADFB2E1B25148D001CA00E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1FADFB0D1B25148D001CA00E /* iScream.xcdatamodeld */ = {
+		610740291B262F7900D50FC2 /* iScream.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1FADFB0E1B25148D001CA00E /* iScream.xcdatamodel */,
+				6107402A1B262F7900D50FC2 /* Table_View_Intro.xcdatamodel */,
 			);
-			currentVersion = 1FADFB0E1B25148D001CA00E /* iScream.xcdatamodel */;
+			currentVersion = 6107402A1B262F7900D50FC2 /* Table_View_Intro.xcdatamodel */;
 			path = iScream.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

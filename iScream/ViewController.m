@@ -11,16 +11,60 @@
 #import "AppDelegate.h"
 #import "Flavors.h"
 #import "InventoryItems.h"
+#import "flavorViewController.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) AppDelegate            *appDelegate;
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSArray                *flavorsArray;
+@property (nonatomic, strong) IBOutlet UITableView *flavorTableView;
 
 @end
 
 @implementation ViewController
+
+
+#pragma mark - Table View Methods
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _flavorsArray.count;
+}
+
+- (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *cellId = @"Cell";
+    UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellId];
+    
+    if (cell == nil) {//else if you dont have one to reuse lets make a new one
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellId];
+        cell.textLabel.textColor = [UIColor purpleColor];
+        //cell.detailTextLabel.textColor = [UIColor purpleColor];
+        //cell.textLabel.font = [UIFont fontWithName:@"papyrus" size:14];
+        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    Flavors *currentFlavor = [_flavorsArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = [currentFlavor flavorName];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%g many gallons left", [self totalInventoryForFlavor:currentFlavor]];
+    cell.imageView.image = [UIImage imageNamed:[currentFlavor flavorImage]];
+    return cell;
+}
+
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"select");
+    [self performSegueWithIdentifier:@"displayFlavorSegue" sender:self];
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    flavorViewController *destController = [segue destinationViewController];
+    NSIndexPath *indexPath = [_flavorTableView indexPathForSelectedRow];
+    Flavors *flavorToDisplay = [_flavorsArray objectAtIndex:indexPath.row];
+    destController.flavorNameString = [flavorToDisplay flavorName];
+}
 
 #pragma mark - Core Methods
 
